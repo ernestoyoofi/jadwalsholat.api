@@ -68,4 +68,4 @@ Jika ingin menambahakan bisa [pull request](https://github.com/ernestoyoofi/jadw
 ## 📝 Sample Via Nextjs
 
 Untuk sample atau contoh menggunakan nextjs, ada pada halaman
-[jadwalsholat.vercel.app](https://jadwalsholat.vercel.app/)
+[jadwalsholat-api.vercel.app](https://jadwalsholat-api.vercel.app/)
