@@ -18,14 +18,13 @@ JadwalSholatAPI.jadwal(configs)
     z =>`\nNama: ${z.kota}, Kode: ${z.id}`
   ).join(""))
   console.log(`\n[Jadwal Sholat]\n`, data.jadwal.map(
-    z => `\nTanggal: ${z.hari_masehi}
-=======================
-  Subuh: ${z.waktu_subuh}
-  Dhuhur: ${z.waktu_dhuhur}
-  Asar: ${z.waktu_asar}
-  Magrib: ${z.waktu_magrib}
-  Isya: ${z.waktu_isya}
-======================
-`
+    z => ` [${z.hari_masehi}]
+
+ • Subuh: ${z.waktu_subuh}
+ • Dhuhur: ${z.waktu_dhuhur}
+ • Asar: ${z.waktu_asar}
+ • Magrib: ${z.waktu_magrib}
+ • Isya: ${z.waktu_isya}
+======================\n`
   ).join(""))
 })
